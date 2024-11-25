@@ -1,10 +1,10 @@
 <!-- Hexlet header -->
-<a href="https://ru.hexlet.io/" style="color: black">
-<center>
-<img src="images/hexlet_logo.png"
-    width="200" 
-    height="200">
-</center>
+<a href="https://ru.hexlet.io/">
+<p align="center">
+    <img src="images/hexlet_logo.png" 
+        width="200" 
+        height="200">
+</p>
 </a>
 
 
