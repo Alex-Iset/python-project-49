@@ -6,21 +6,20 @@ from brain_games.consts_and_logic.game_constants import (
 )
 
 
-def is_looking_common_division():
-    """"""
+def get_random_numbers_and_gcd() -> tuple[str, str]:
+    """Returns random numbers and their greatest common divisor"""
     number1, number2 = (
         get_random_numbers(end_range=30),
         get_random_numbers(end_range=30)
     )
-    result = ''
+    greatest_common_divisor = ''
     for i in range(1, 30):
         if number1 % i == 0 == number2 % i == 0:
-            result = str(i)
+            greatest_common_divisor = str(i)
     numbers = f'{number1}, {number2}'
-    return numbers, result
-
+    return numbers, greatest_common_divisor
 
 
 def game_gcd():
     """Starts the game"""
-    start_game(is_looking_common_division, CONDITION_GAME_GCD)
+    start_game(get_random_numbers_and_gcd, CONDITION_GAME_GCD)
