@@ -1,9 +1,10 @@
 <!-- Hexlet header -->
 <a href="https://ru.hexlet.io/" style="color: black">
-  <img src="images/hexlet_logo.jpg" 
-        alt="Hexlet header image" 
-        width="auto" height="auto"
-        style="display: flex; flex-wrap: wrap; max-width: 100%; border-radius: 50% !important;"> 
+<center>
+<img src="images/hexlet_logo.png"
+    width="200" 
+    height="200">
+</center>
 </a>
 
 
