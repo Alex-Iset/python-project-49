@@ -16,7 +16,7 @@ def get_random_numbers_and_gcd() -> tuple[str, str]:
     for i in range(1, 30):
         if number1 % i == 0 == number2 % i == 0:
             greatest_common_divisor = str(i)
-    numbers = f'{number1}, {number2}'
+    numbers = f'{number1} {number2}'
     return numbers, greatest_common_divisor
 
 
