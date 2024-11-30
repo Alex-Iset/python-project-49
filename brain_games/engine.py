@@ -2,7 +2,7 @@ import prompt
 
 from random import randint
 
-from brain_games.consts_and_logic.game_constants import (
+from brain_games.constants import (
     NUMBER_QUESTIONS
 )
 
