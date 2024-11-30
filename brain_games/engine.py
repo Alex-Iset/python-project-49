@@ -1,22 +1,13 @@
 import prompt
 
-from random import randint
-
 from brain_games.constants import (
     NUMBER_QUESTIONS
 )
 
 
-def get_random_numbers(
-        start_range: int = 1, end_range: int = 100
-) -> int:
-    """Returns a random numbers"""
-    random_number: int = randint(start_range, end_range)
-    return random_number
-
-
 def start_game(data: callable, condition: str):
     """Starts the game"""
+    print('Welcome to the Brain Games!')
     user_name: str = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
     print(condition)

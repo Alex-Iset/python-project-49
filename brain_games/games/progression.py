@@ -1,11 +1,8 @@
 from random import choice
 
-from brain_games.consts_and_logic.game_logic import (
-    start_game, get_random_numbers
-)
-from brain_games.consts_and_logic.game_constants import (
-    CONDITION_GAME_PROGRESSION
-)
+from brain_games.engine import start_game
+from brain_games.utils import get_random_numbers
+from brain_games.constants import CONDITION_GAME_PROGRESSION
 
 
 def get_random_index(progression: list[str]) -> int:

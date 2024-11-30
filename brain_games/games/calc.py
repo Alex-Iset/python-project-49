@@ -1,11 +1,8 @@
 from random import choice
 
-from brain_games.consts_and_logic.game_logic import (
-    start_game, get_random_numbers
-)
-from brain_games.consts_and_logic.game_constants import (
-    CONDITION_GAME_CALC
-)
+from brain_games.engine import start_game
+from brain_games.utils import get_random_numbers
+from brain_games.constants import CONDITION_GAME_CALC
 
 
 def get_random_operation_and_result() -> tuple[str, str]:
