@@ -6,9 +6,17 @@
 </p>
 </a>
 
+
 ### Hexlet tests, linter and Code Climate status:
 [![Actions Status](https://github.com/Alex-Iset/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Alex-Iset/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3f97b97684258233f288/maintainability)](https://codeclimate.com/github/Alex-Iset/python-project-49/maintainability)
+
+
+### Стек технологий:
+![Static Badge](https://img.shields.io/badge/python-3.12-%2F?style=flat&logo=python&color=yellow)
+![Static Badge](https://img.shields.io/badge/poetry-1.8.4-%2F?style=flat&logo=poetry&color=blue)
+![Static Badge](https://img.shields.io/badge/pip-24.0-%2F?style=flat&logo=pip&color=%23DCDCDC)
+![Static Badge](https://img.shields.io/badge/prompt-0.4.1-%2F?style=flat&logo=prompt&color=%23DCDCDC)
 
 
 ## Содержание:
@@ -27,7 +35,6 @@
 для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. 
 После трех правильных ответов считается, что игра пройдена. 
 Неправильные ответы завершают игру и предлагают пройти ее заново.
-
 
 ### Калькулятор
 Арифметические выражения, которые необходимо вычислить
