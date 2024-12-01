@@ -8,15 +8,15 @@ from brain_games.constants import (
 def start_game(data: callable, condition: str):
     """Starts the game"""
     print('Welcome to the Brain Games!')
-    user_name: str = prompt.string('May I have your name? ')
+    user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!'
           f'\n{condition}')
 
     for _ in range(NUMBER_QUESTIONS):
         question, answer = data()
         print(f'Question: {question}')
-        user_answer: str = prompt.string('Your answer: ')
-        if user_answer.lower() == answer:
+        user_answer = prompt.string('Your answer: ')
+        if user_answer.lower() == str(answer):
             print('Correct!')
         else:
             return print(f'"{user_answer}" is wrong answer ;(. '
