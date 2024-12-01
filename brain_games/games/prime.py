@@ -1,8 +1,8 @@
 from math import sqrt
 
-from brain_games.engine import start_game
 from brain_games.utils import get_random_numbers
 from brain_games.constants import CONDITION_GAME_PRIME
+from brain_games.engine import start_game
 
 
 def is_prime(random_number: int) -> bool:

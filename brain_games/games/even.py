@@ -1,6 +1,6 @@
-from brain_games.engine import start_game
 from brain_games.utils import get_random_numbers
 from brain_games.constants import CONDITION_GAME_EVEN
+from brain_games.engine import start_game
 
 
 def is_even_or_odd(random_number: int) -> bool:
