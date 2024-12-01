@@ -1,16 +1,18 @@
+from math import sqrt
+
 from brain_games.engine import start_game
 from brain_games.utils import get_random_numbers
 from brain_games.constants import CONDITION_GAME_PRIME
 
 
-def is_prime(random_number) -> bool:
+def is_prime(random_number: int) -> bool:
     """Checks if the number is prime and returns a Boolean value"""
-    prime_numbers = [1, random_number]
-    result = []
-    for i in range(1, random_number + 1):
+    if random_number < 2:
+        return False
+    for i in range(2, int(sqrt(random_number)) + 1):
         if random_number % i == 0:
-            result.append(i)
-    return True if result == prime_numbers else False
+            return False
+    return True
 
 
 def get_random_number_and_correct_answer() -> tuple[int, str]:
