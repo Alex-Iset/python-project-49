@@ -1,8 +1,6 @@
 import prompt
 
-from brain_games.constants import (
-    NUMBER_QUESTIONS
-)
+from brain_games.constants import NUMBER_QUESTIONS
 
 
 def start_game(data: callable, condition: str):

@@ -1,8 +1,8 @@
 from math import gcd
 
-from brain_games.utils import get_random_numbers
 from brain_games.constants import CONDITION_GAME_GCD
 from brain_games.engine import start_game
+from brain_games.utils import get_random_numbers
 
 
 def get_random_numbers_and_gcd() -> tuple[str, str]:
