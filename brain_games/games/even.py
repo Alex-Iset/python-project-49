@@ -5,7 +5,7 @@ from brain_games.constants import CONDITION_GAME_EVEN
 
 def is_even_or_odd(random_number: int) -> bool:
     """Checks the parity of the number and returns a Boolean value"""
-    return True if random_number % 2 == 0 else False
+    return random_number % 2 == 0
 
 
 def get_random_number_and_correct_answer() -> tuple[int, str]:
