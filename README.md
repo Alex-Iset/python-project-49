@@ -9,7 +9,7 @@
 
 ### Hexlet tests, linter and Code Climate status:
 [![Actions Status](https://github.com/Alex-Iset/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Alex-Iset/python-project-49/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/3f97b97684258233f288/maintainability)](https://codeclimate.com/github/Alex-Iset/python-project-49/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/87dce847a86335e595be/maintainability)](https://codeclimate.com/github/Alex-Iset/python-project-49/maintainability)
 
 
 ### Tech Stack:
@@ -20,14 +20,14 @@
 
 
 ## Table of contents:
-### [1. «Mind games»](#игры-разума)
-* [Calculator](#калькулятор)
-* [Progression](#прогрессия)
-* [Determining an even number](#определение-четного-числа)
-* [Determining the greatest common divisor](#определение-наибольшего-общего-делителя)
-* [Definition of a prime number](#определение-простого-числа)
-### [2. Install (Linux)](#установка-linux)
-### [3. How to play?](#как-играть)
+### [1. «Mind games»](#mind-games)
+* [Calculator](#calculator)
+* [Progression](#progression)
+* [Determining an even number](#determining-an-even-number)
+* [Determining the greatest common divisor](#determining-the-greatest-common-divisor)
+* [Definition of a prime number](#definition-of-a-prime-number)
+### [2. Install (Linux)](#install-linux)
+### [3. How to play?](#how-to-play)
 
 
 ## «Mind games»:
